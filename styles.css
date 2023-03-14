@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+body{
+  background: linear-gradient(135deg, #00DFFF 0%, #1C3DFF 36%, #8C00D4 67%, #F5008F 100%);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color:#fff;
+  height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+  
+h1{
+  text-align:center;
+  font-size: 3rem;
+  padding:20px;
+}
+
+button {
+  height: 50px;
+  border: none;
+}
+
+.calculator {
+  text-align: center;
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  margin: auto;
+  position: relative;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #2E3566;
+  padding: 5px;
+}
+
+.buttons {
+  width: 275px;
+  text-align: center;
+  margin:10px auto;
+}
+
+.button{
+  float: left;
+  font-weight:400;
+  margin: 2px;
+  width: 64.75px;
+  color: #2E3566;
+  background: #B3B9EE;
+  cursor: pointer;
+  border-radius:50px;
+}
+
+.button3{
+  float: left;
+  font-weight:400;
+  margin: 2px;
+  width: 64.75px;
+  color: #2E3566;
+  background: #535EB8;
+  cursor: pointer;
+  border-radius:50px;
+}
+
+.button2{
+  float: left;
+  font-weight:400;
+  margin: 2px;
+  width: 64.75px;
+  color: #2E3566;
+  background: #6A79EB;
+  cursor: pointer;
+  border-radius:50px;
+}
+
+.button1{
+  float: left;
+  font-weight:400;
+  margin: 2px;
+  width: 132px;
+  color: #2E3566;
+  background: #B3B9EE;
+  cursor: pointer;
+  border-radius:50px;
+}
+
+.textbox {
+  margin-top: 10px;
+  text-align: right;
+  border: none;
+  height: 50px;
+  width: 90%;
+  border-radius:10px;
+  background-color: #2E3466;
+  color:#B3B9EE;
+  font-size:2rem;
+}
